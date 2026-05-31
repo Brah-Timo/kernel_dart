@@ -1,0 +1,44 @@
+name: kernel_dart
+description: >
+   Ultra-lightweight bare-metal kernel enabling Dart AOT apps to run directly on embedded ARM/x86 hardware without a traditional operating system.
+ 
+version: 1.0.0
+repository: https://github.com/Brah-Timo/kernel_dart
+issue_tracker: https://github.com/Brah-Timo/kernel_dart/issues
+documentation: https://kernel-dart.dev/docs
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+topics:
+  - dart
+  - kernel
+  - embedded
+  - bare-metal
+  - aot
+
+executables:
+  kernel_dart: kernel_dart
+  kdart: cli
+
+dependencies:
+  archive: ^3.4.9
+  args: ^2.4.2
+  collection: ^1.18.0
+  crypto: ^3.0.3
+  ffi: ^2.1.2
+  logging: ^1.2.0
+  meta: ^1.11.0
+  path: ^1.9.0
+  process: ^5.0.2
+  yaml: ^3.1.2
+
+dev_dependencies:
+  build_runner: ^2.4.8
+  coverage: ^1.7.2
+  lints: ^3.0.0
+  mockito: ^5.4.4
+  test: ^1.24.9
+
+# Dart language features
+# Dart SDK 3.x features are fully supported

@@ -1,0 +1,13 @@
+name: sensor_read
+description: >
+  kernel_dart example — read temperature and pressure from a BME280 sensor
+  over I²C on a Raspberry Pi 3 and print readings over UART.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  kernel_dart:
+    path: ../..

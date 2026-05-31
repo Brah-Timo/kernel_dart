@@ -1,0 +1,13 @@
+name: network_server
+description: >
+  kernel_dart example — a minimal TCP echo server running bare-metal on a
+  Raspberry Pi 3, demonstrating the kernel scheduler and interrupt handler.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  kernel_dart:
+    path: ../..

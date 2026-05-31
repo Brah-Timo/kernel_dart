@@ -1,0 +1,13 @@
+name: hello_world
+description: >
+  kernel_dart example — print "Hello from Dart Bare Metal!" over UART
+  and display memory statistics on a Raspberry Pi 3.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  kernel_dart:
+    path: ../..

@@ -1,0 +1,13 @@
+name: blink_led
+description: >
+  kernel_dart example — blink the on-board activity LED on a Raspberry Pi 3
+  using the BCM2835 GPIO driver.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  kernel_dart:
+    path: ../..
